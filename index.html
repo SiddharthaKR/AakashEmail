@@ -52,9 +52,15 @@
 			font-family: 'Gilroy-Medium', sans-serif;
 			font-weight: 500;
 			font-size:22px;
-			line-height:29px;
+			line-height:27px;
 			color: black;
 		}
+		.font-light{
+			font-family: 'Gilroy-light', sans-serif;
+		}
+		.button-td{
+			padding: 35px 0px 38px 0px;
+			} 
 		@media screen and (max-width: 600px) { 
 			.button{
 				font-size: 14px;
@@ -79,6 +85,10 @@
 			}
 			.font-bold{
 				font-size: 36px;
+				color: #414141;
+			}
+			.button-td{
+				padding: 25px 0px 28px 0px;
 			} 
 		}
 	</style>
@@ -108,11 +118,11 @@
 									</td>
 								</tr>
 								<tr>
-									<td style="border-radius:0px 0px 15px 15px;padding: 30px; background-color: #ffff;">
+									<td style="border-radius:0px 0px 15px 15px;padding: 15px 30px 30px 30px; background-color: #ffff;">
 										<table width="100%">
 											<tr>
 												<td>
-													<h2 class="font-bold">
+													<h2 style="margin-top:15px" class="font-bold">
 														Hi Shreyas,
 													</h2>
 													<p style="width:96%;" class="font-medium">
@@ -123,7 +133,7 @@
 												</td>
 											</tr>
 											<tr>
-												<td style="padding: 25px 0px 28px 0px;">
+												<td class="button-td">
 													<a href="/" class="button">
 														VERIFY EMAIL ADDRESS
 													</a>
@@ -151,7 +161,7 @@
 				<table width="100%">
 					<tr>
 						<td align="center" style="text-align:center;">
-							<p style="display:inline-block;">Privacy Statement | Terms of Service</p>
+							<p class="font-light" style="display:inline-block;">Privacy Statement | Terms of Service</p>
 						</td>
 					</tr>
 				</table>
